@@ -1,12 +1,52 @@
 
-a = "Arshid" #string
+# H/w = 1
 
-b = 24 #int
+# a = "Arshid" #string
 
-c = 20.5 #float 
+# b = 24 #int
 
-d = True #bool
+# c = 20.5 #float 
 
-e = None #none
+# d = True #bool
 
-print(type(a), type(b), type(c), type(d), type(e));
+# e = None #none
+
+# print(type(a), type(b), type(c), type(d), type(e));
+# print ("hi")
+
+
+
+
+
+
+
+
+
+# H/w = 2
+
+
+
+
+# print("   *")
+# print("  ***")
+# print(" *****")
+# print("*******")
+# print("   |")
+
+
+
+
+for i in range(1, 5):
+    print(" " * (4 - i) + "*" * (2 * i - 1))
+print("   |")   
+
+
+
+
+
+# def draw_tree(height):
+#     for i in range(1, height + 1):
+#         print(('*' * (2 * i - 1)).center(height * 2))
+#     print(('|').center(height * 2))
+
+# draw_tree(5)   
