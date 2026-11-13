@@ -8,7 +8,7 @@ int main()
     int c;
     c = a + b;
     cout << c;
-    cout << "the value of B = \n " << b;
+    cout << "the value of b = \n " << b;
 
     return 0;
 }
